@@ -16,7 +16,7 @@ describe BooksController do
     
     it "returns not found if book doesn't exist" do
       get "/books/50"
-      must_respond_with :missing
+      must_respond_with :not_found
     end
     
     
