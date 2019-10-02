@@ -18,8 +18,5 @@ describe BooksController do
       get "/books/50"
       must_respond_with :not_found
     end
-    
-    
-    
   end
 end
